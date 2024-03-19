@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/media-queries.css" />
+    <title>Ping Coming Soon</title>
+  </head>
+  <body>
+    <header>
+      <figure class="logo">
+        <img src="./images/logo.svg" alt="ping logo" />
+      </figure>
+
+      <article class="primary-heading">
+        <h1>We are launching <span>soon!</span></h1>
+        <p>Subscribe and get notified</p>
+      </article>
+
+      <form onsubmit="handleValidation(event)">
+        <div class="email-box">
+          <input
+            type="text"
+            placeholder="Your email address..."
+            class="input-email"
+          />
+          <p class="email-error-msg">Please provide a valid email address</p>
+        </div>
+        <button>Notify Me</button>
+      </form>
+    </header>
+
+    <main>
+      <figure class="dashboard-image">
+        <img
+          src="./images/illustration-dashboard.png"
+          alt="illustration-dashboard"
+        />
+      </figure>
+    </main>
+
+    <footer>
+      <ul class="social-media">
+        <li><a href="#" class="fa fa-facebook"></a></li>
+        <li><a href="#" class="fa fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li>
+      </ul>
+      <p class="copy">&copy; Copyright Ping. All rights reserved.</p>
+    </footer>
+
+    <!-- script-->
+    <script src="./js/index.js"></script>
+  </body>
+</html>

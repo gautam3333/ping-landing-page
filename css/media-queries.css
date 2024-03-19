@@ -1,0 +1,18 @@
+/***** MAX-WIDTH: 384px *****/
+@media (max-width: 384px) {
+  form {
+    display: block;
+  }
+
+  .email-box input {
+    width: 100%;
+  }
+
+  form button {
+    width: 100%;
+  }
+
+  .dashboard-image img {
+    width: 100%;
+  }
+}
