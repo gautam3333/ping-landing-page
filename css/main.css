@@ -88,7 +88,7 @@ form {
 
 form button {
   border: none;
-  background-color: #4f7df3;
+  background: #4f7df3;
   color: #fff;
   border-radius: 2rem;
   font-weight: 600;
@@ -98,11 +98,18 @@ form button {
   transition: all 0.3s ease;
 }
 
-form button:hover {
+/* form button:hover {
   cursor: pointer;
   background-color: var(--pale-blue);
-}
+} */
 
+/* Putting hover code in @media block prevents hover state on touch devices.*/
+@media (hover: hover) {
+  form button:hover {
+    cursor: pointer;
+    background-color: var(--pale-blue);
+  }
+}
 .email-error-msg {
   color: var(--light-red);
   font-size: 1rem;
